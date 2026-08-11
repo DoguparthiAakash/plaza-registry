@@ -1,10 +1,13 @@
-# `plaza-registry`
+# PlazaVM Repository
 
-Runtime backend registry crate for tracking registered plugins and execution capabilities.
+This repository is part of the PlazaVM ecosystem.
 
----
+## Building
+```
+cargo build
+```
 
-## 🛠 Responsibilities
-
-- Central runtime backend lookup (`RuntimeRegistry`).
-- Capability indexing for containers, virtual machines, and bare metal backends.
+## Testing
+```
+cargo test
+```
